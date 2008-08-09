@@ -1,0 +1,24 @@
+n LEER
+2 j =
+:
+    0 f0 =
+    1 f1 =
+    1 f2 =
+    2 i =
+    :
+        f0 f1 + f2 =
+        f1 EVAL f0 =
+        f2 EVAL f1 =
+        i 1 + i =
+    ;
+    :
+        i j <
+    ;
+    MIENTRAS
+    f2 IMPRIMIR
+    1 j + j =
+;
+:
+    j n <=
+;
+MIENTRAS
